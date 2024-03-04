@@ -11,3 +11,10 @@ def psnt(n):
     for i in range (2,n+1):
         if(snt(i)):
             print(i, end=" ")
+def fsnt(n):
+    if(snt(n)):
+        print(n)
+    else:
+        return fsnt(n+1)
+    
+
